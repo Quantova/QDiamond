@@ -1,6 +1,6 @@
 {
   "name": "@quantovainc/qdiamond",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quantum secure provenance and chain of custody records for diamonds. Proves the lab certification 4Cs vault custody transfer and redemption of graded diamonds, with ML-DSA-65 under FIPS 204 and Quantova time proofs. No holder data ever leaves the party that holds it.",
   "main": "index.js",
   "types": "index.d.ts",
