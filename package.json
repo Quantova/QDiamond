@@ -1,0 +1,73 @@
+{
+  "name": "@quantovainc/qdiamond",
+  "version": "0.1.0",
+  "description": "Quantum secure provenance and chain of custody records for diamonds. Proves the lab certification 4Cs vault custody transfer and redemption of graded diamonds, with ML-DSA-65 under FIPS 204 and Quantova time proofs. No holder data ever leaves the party that holds it.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/",
+    "wasm/qdiamond_native.js",
+    "wasm/qdiamond_native_bg.wasm",
+    "wasm/qdiamond_native.d.ts",
+    "LICENSE-APACHE",
+    "LICENSE-MIT",
+    "NOTICE",
+    "AUTHORS"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "dependencies": {
+    "@quantovainc/qstamp": "0.6.14"
+  },
+  "keywords": [
+    "post-quantum",
+    "quantum-safe",
+    "real-world-assets",
+    "rwa",
+    "diamonds",
+    "gemstones",
+    "4cs",
+    "provenance",
+    "chain-of-custody",
+    "ml-dsa",
+    "fips-204",
+    "quantova"
+  ],
+  "license": "Apache-2.0 OR MIT",
+  "author": "Quantova Inc",
+  "homepage": "https://github.com/Quantova/QDiamond",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quantova/QDiamond.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Quantova/QDiamond/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.5",
+    "eslint": "9.39.1",
+    "eslint-plugin-security": "3.0.1",
+    "globals": "16.5.0"
+  }
+}
